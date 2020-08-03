@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForBPOTravel", "TestForBPOTravel\TestForBPOTravel.csproj", "{D14EBE04-10D0-470E-B33D-85C5A33AB735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{0D589CDE-DFD5-4E50-990E-6F0010F79189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14EBE04-10D0-470E-B33D-85C5A33AB735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14EBE04-10D0-470E-B33D-85C5A33AB735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14EBE04-10D0-470E-B33D-85C5A33AB735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14EBE04-10D0-470E-B33D-85C5A33AB735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D589CDE-DFD5-4E50-990E-6F0010F79189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D589CDE-DFD5-4E50-990E-6F0010F79189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D589CDE-DFD5-4E50-990E-6F0010F79189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D589CDE-DFD5-4E50-990E-6F0010F79189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D8510D3-5802-47E8-87B2-1C8FAB622BAB}
+	EndGlobalSection
+EndGlobal

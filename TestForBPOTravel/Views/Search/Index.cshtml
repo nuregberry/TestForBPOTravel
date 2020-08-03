@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ClassLibrary.Model.Result>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CURRENCY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AMOUNT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FULL_NAME)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CURRENCY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AMOUNT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FULL_NAME)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
